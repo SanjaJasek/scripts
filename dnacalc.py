@@ -2,5 +2,8 @@
 
 DNASeq = 'ATGAAC'
 
-print 'Sequence', DNASeq # -> only python 2
+#print 'Sequence', DNASeq # -> only python 2
 print ('Sequence ' + DNASeq ) # -> python 2 and 3
+
+SeqLength = len(DNASeq)
+print(SeqLength)
